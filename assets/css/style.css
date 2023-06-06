@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "dancing-font";
+  src: url("../fonts/dancing_script.ttf") format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  position: relative;
+}
+main{
+  min-height: calc(100vh - 176px);
+}
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+.header-container {
+  background-color: black;
+  color: white;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-title{
+  font-family: "dancing-font";
+}
+.nav-ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style: none;
+  height: 50px;
+  padding-inline-end: 20px;
+}
+.nav-li {
+  padding-left: 10px;
+}
+.nav-link:hover {
+  color: blueviolet;
+  font-size: 18px;
+  font-weight: bold;
+}
+.footer {
+  min-height: 50px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.galeria {
+  max-width: 30vw;
+}
+.galeria-title, .nosotros-title, .main-contact{
+  font-family: "dancing-font";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.btn-purple{
+  color: white;
+  background-color: blueviolet;
+  font-weight: bold;
+}
+.btn-purple:hover{
+  border: 2px solid blueviolet;
+  background-color: white;
+  color: blueviolet;
+}
